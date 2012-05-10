@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 02:32:49 PM
+
+BeginCmp
+TimeStamp = /4FAC17B6;
+Reference = IC1;
+ValeurCmp = P8X32A-44LQFP;
+IdModule  = QFP80-44-10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC25C6;
+Reference = IC2;
+ValeurCmp = 24LC256SN;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC1D87;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC1D95;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC210E;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC1E77;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC21DC;
+Reference = P5;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC22B7;
+Reference = P6;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC2340;
+Reference = P7;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC28EF;
+Reference = P8;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC2666;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC1A0F;
+Reference = X1;
+ValeurCmp = 20MHz;
+IdModule  = SM1210;
+EndCmp
+
+EndListe
