@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thursday, May 10, 2012 03:09:39 PM
+EESchema Schematic File Version 2  date Thursday, May 10, 2012 03:09:59 PM
 LIBS:74xx
 LIBS:adc-dac
 LIBS:analog_switches
@@ -301,10 +301,10 @@ F 1 "CONN_6" V 8850 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR017
 U 1 1 4FAC47AD
 P 8250 5550
-F 0 "#PWR?" H 8250 5640 20  0001 C CNN
+F 0 "#PWR017" H 8250 5640 20  0001 C CNN
 F 1 "+5V" H 8250 5640 30  0000 C CNN
 	1    8250 5550
 	0    -1   -1   0   
