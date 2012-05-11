@@ -21,8 +21,7 @@
       )
     )
     (boundary
-      (path pcb 0  4900 -6200  4900 -6250  6700 -6250  6700 -6200  6700 -4150
-            4900 -4150  4900 -6200)
+      (path pcb 0  4400 -4250  6700 -4250  6700 -6350  4400 -6350  4400 -4250)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
@@ -34,35 +33,35 @@
   )
   (placement
     (component SO8E
-      (place IC2 6250 -5050 front 90 (PN 24LC256SN))
+      (place IC2 6150 -5150 front 90 (PN 24LC256SN))
     )
     (component "SIL-8"
-      (place P7 6600 -4800 front 90 (PN CONN_8))
-      (place P3 5390 -4250 front 180 (PN CONN_8))
-      (place P4 5350 -4350 front 180 (PN CONN_8))
-      (place P2 6250 -4350 front 180 (PN CONN_8))
-      (place P1 6250 -4250 front 180 (PN CONN_8))
+      (place P7 6500 -4900 front 90 (PN CONN_8))
+      (place P3 5290 -4350 front 180 (PN CONN_8))
+      (place P4 5250 -4450 front 180 (PN CONN_8))
+      (place P2 6150 -4450 front 180 (PN CONN_8))
+      (place P1 6150 -4350 front 180 (PN CONN_8))
     )
     (component "SIL-6"
-      (place P8 5650 -6150 front 0 (PN CONN_6))
-      (place P6 6600 -5500 front 90 (PN CONN_6))
-      (place P5 6350 -6150 front 0 (PN CONN_6))
-      (place P9 5000 -4800 front 90 (PN CONN_6))
+      (place P8 5550 -6250 front 0 (PN CONN_6))
+      (place P6 6500 -5600 front 90 (PN CONN_6))
+      (place P5 6250 -6250 front 0 (PN CONN_6))
+      (place P9 4750 -5100 front 90 (PN CONN_6))
     )
     (component "QFP80-44-10x10"
-      (place IC1 5750 -4900 front 270 (PN "P8X32A-44LQFP"))
+      (place IC1 5450 -5100 front 270 (PN "P8X32A-44LQFP"))
     )
     (component ARDUINO_SHIELD_2_040pins
-      (place SHIELD** 4100 -6250 front 0 (PN ARDUINO_SHIELD))
+      (place SHIELD** 900 -6525 front 0 (PN ARDUINO_SHIELD))
     )
     (component SW_PUSH_SMALL
-      (place S1 5250 -5800 front 90 (PN "DTS-3"))
+      (place S1 5150 -5900 front 90 (PN "DTS-3"))
     )
     (component SM0603_Resistor
-      (place R1 6250 -4800 front 180 (PN 10k))
+      (place R1 6150 -4900 front 180 (PN 10k))
     )
     (component "crystal-CSM-7X-DU"
-      (place X1 6100 -5400 front 180 (PN 20MHz))
+      (place X1 5950 -5650 front 180 (PN 20MHz))
     )
   )
   (library
