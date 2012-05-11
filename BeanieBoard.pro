@@ -1,10 +1,7 @@
-update=Thursday, May 10, 2012 06:23:02 PM
+update=Thursday, May 10, 2012 09:46:43 PM
 last_client=eeschema
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
 [pcbnew]
 version=1
 LastNetListRead=BeanieBoard.net
@@ -23,7 +20,6 @@ EdgeLar=150
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
-LibDir=
 LibName1=/Applications/kicad/resources/modules/connect
 LibName2=/Applications/kicad/resources/modules/ampmodu
 LibName3=/Applications/kicad/resources/modules/combicon
@@ -48,6 +44,11 @@ LibName21=/Applications/kicad/resources/modules/supports
 LibName22=/Applications/kicad/resources/modules/tqfp
 LibName23=/Applications/kicad/resources/modules/xtal
 LibName24=arduino_shields
+LibName25=/Applications/kicad/resources/modules/crystal
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=
@@ -84,3 +85,4 @@ LibName21=/Applications/kicad/resources/library/conn
 LibName22=/Applications/kicad/resources/library/resist
 LibName23=BeanieBoard
 LibName24=/Applications/kicad/resources/converted/switch-tact
+LibName25=/Applications/kicad/resources/library/adafruit

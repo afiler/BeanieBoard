@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 06:30:55 PM
+Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 08:45:47 PM
 
 BeginCmp
 TimeStamp = /4FAC17B6;
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /4FAC2666;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = SM0805;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /4FAC1A0F;
 Reference = X1;
 ValeurCmp = 20MHz;
-IdModule  = SM1210;
+IdModule  = crystal-CSM-7X-DU;
 EndCmp
 
 EndListe
