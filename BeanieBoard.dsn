@@ -21,7 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  6700 -6200  4900 -6200  4900 -4150  6700 -4150  6700 -6200)
+      (path pcb 0  4900 -6200  4900 -6250  6700 -6250  6700 -6200  6700 -4150
+            4900 -4150  4900 -6200)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
@@ -33,29 +34,29 @@
   )
   (placement
     (component SO8E
-      (place IC2 6213.7 -5203.5 front 90 (PN 24LC256SN))
+      (place IC2 6250 -5050 front 90 (PN 24LC256SN))
     )
     (component SM1210
-      (place X1 5663.7 -5703.5 front 0 (PN 20MHz))
+      (place X1 5800 -5350 front 180 (PN 20MHz))
     )
     (component SM0805
-      (place R1 6138.9 -5020.8 front 0 (PN 10k))
+      (place R1 6250 -4800 front 180 (PN 10k))
     )
     (component "SIL-8"
-      (place P7 6613.7 -4853.5 front 90 (PN CONN_8))
-      (place P3 5413.7 -4253.5 front 180 (PN CONN_8))
-      (place P4 5363.7 -4403.5 front 180 (PN CONN_8))
-      (place P2 6263.7 -4403.5 front 180 (PN CONN_8))
-      (place P1 6263.7 -4253.5 front 180 (PN CONN_8))
+      (place P7 6600 -4900 front 90 (PN CONN_8))
+      (place P3 5400 -4250 front 180 (PN CONN_8))
+      (place P4 5350 -4350 front 180 (PN CONN_8))
+      (place P2 6250 -4350 front 180 (PN CONN_8))
+      (place P1 6250 -4250 front 180 (PN CONN_8))
     )
     (component "SIL-6"
-      (place P8 5000 -4850 front 90 (PN CONN_6))
-      (place P6 6263.7 -6103.5 front 0 (PN CONN_6))
-      (place P5 6613.7 -5653.5 front 270 (PN CONN_6))
-      (place P9 5563.7 -6103.5 front 0 (PN CONN_6))
+      (place P8 5000 -4800 front 90 (PN CONN_6))
+      (place P6 6600 -5700 front 90 (PN CONN_6))
+      (place P5 6350 -6150 front 0 (PN CONN_6))
+      (place P9 5650 -6150 front 0 (PN CONN_6))
     )
     (component "QFP80-44-10x10"
-      (place IC1 5613.7 -5153.5 front 270 (PN "P8X32A-44LQFP"))
+      (place IC1 5750 -4900 front 270 (PN "P8X32A-44LQFP"))
     )
   )
   (library
