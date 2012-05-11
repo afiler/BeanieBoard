@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 04:36:22 PM
+Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 06:30:55 PM
 
 BeginCmp
 TimeStamp = /4FAC17B6;
@@ -82,6 +82,13 @@ TimeStamp = /4FAC2666;
 Reference = R1;
 ValeurCmp = 10k;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAC6A09;
+Reference = S1;
+ValeurCmp = DTS-3;
+IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp

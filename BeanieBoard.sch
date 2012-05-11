@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thursday, May 10, 2012 03:09:59 PM
+EESchema Schematic File Version 2  date Thursday, May 10, 2012 06:32:35 PM
 LIBS:74xx
 LIBS:adc-dac
 LIBS:analog_switches
@@ -22,6 +22,7 @@ LIBS:con
 LIBS:conn
 LIBS:resist
 LIBS:BeanieBoard
+LIBS:switch-tact
 LIBS:BeanieBoard-cache
 EELAYER 25  0
 EELAYER END
@@ -29,7 +30,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 may 2012"
+Date "11 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -309,6 +310,25 @@ F 1 "+5V" H 8250 5640 30  0000 C CNN
 	1    8250 5550
 	0    -1   -1   0   
 $EndComp
+$Comp
+L DTS-3 S1
+U 1 1 4FAC6A09
+P 8700 3000
+F 0 "S1" V 8415 2925 50  0000 L BNN
+F 1 "DTS-3" V 8515 3125 50  0000 L BNN
+F 2 "switch-tact-DTS-3" H 8700 3150 50  0001 C CNN
+	1    8700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 4FAC6BD2
+P 8900 3200
+F 0 "#PWR018" H 8900 3200 30  0001 C CNN
+F 1 "GND" H 8900 3130 30  0001 C CNN
+	1    8900 3200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7050 5800 7050 6050
 Wire Wire Line
@@ -545,4 +565,9 @@ Wire Wire Line
 	9000 1850 9000 2000
 Wire Wire Line
 	8450 5550 8250 5550
+Wire Wire Line
+	8500 3000 8250 3000
+Connection ~ 8250 3000
+Wire Wire Line
+	8900 3000 8900 3200
 $EndSCHEMATC
