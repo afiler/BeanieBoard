@@ -21,7 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  4400 -4250  6700 -4250  6700 -6350  4400 -6350  4400 -4250)
+      (path pcb 0  6600 -4250  4800 -4250  4800 -6350  6600 -6350  6600 -4250
+            6600 -6300)
     )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
@@ -46,13 +47,13 @@
       (place P8 5550 -6250 front 0 (PN CONN_6))
       (place P6 6500 -5600 front 90 (PN CONN_6))
       (place P5 6250 -6250 front 0 (PN CONN_6))
-      (place P9 4750 -5100 front 90 (PN CONN_6))
+      (place P9 4900 -5100 front 90 (PN CONN_6))
     )
     (component "QFP80-44-10x10"
       (place IC1 5450 -5100 front 270 (PN "P8X32A-44LQFP"))
     )
     (component ARDUINO_SHIELD_2_040pins
-      (place SHIELD** 900 -6525 front 0 (PN ARDUINO_SHIELD))
+      (place SHIELD** 7800 -5750 front 0 (PN ARDUINO_SHIELD))
     )
     (component SW_PUSH_SMALL
       (place S1 5150 -5900 front 90 (PN "DTS-3"))
