@@ -1,4 +1,4 @@
-update=Saturday, May 12, 2012 02:53:20 PM
+update=Sunday, May 13, 2012 04:46:59 PM
 last_client=eeschema
 [general]
 version=1
@@ -89,3 +89,5 @@ LibName25=/Applications/kicad/resources/library/adafruit
 LibName26=/Applications/kicad/resources/converted/atmel-1
 LibName27=/Applications/kicad/resources/converted/atmega8
 LibName28=/Applications/kicad/resources/library/Micropendous-32U2-cache
+LibName29=/Applications/kicad/resources/library/regul
+LibName30=/Applications/kicad/resources/converted/v-reg-2
