@@ -1,4 +1,4 @@
-update=Thursday, May 10, 2012 09:46:43 PM
+update=Saturday, May 12, 2012 02:53:20 PM
 last_client=eeschema
 [general]
 version=1
@@ -86,3 +86,6 @@ LibName22=/Applications/kicad/resources/library/resist
 LibName23=BeanieBoard
 LibName24=/Applications/kicad/resources/converted/switch-tact
 LibName25=/Applications/kicad/resources/library/adafruit
+LibName26=/Applications/kicad/resources/converted/atmel-1
+LibName27=/Applications/kicad/resources/converted/atmega8
+LibName28=/Applications/kicad/resources/library/Micropendous-32U2-cache
