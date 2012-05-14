@@ -1,4 +1,46 @@
-Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Thursday, May 10, 2012 08:45:47 PM
+Cmp-Mod V01 Created by CvPcb (2012-04-09 BZR 3497)-testing date = Sunday, May 13, 2012 07:11:23 PM
+
+BeginCmp
+TimeStamp = /4FAEE8D3;
+Reference = C1;
+ValeurCmp = 1u0;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB05CD7;
+Reference = C2;
+ValeurCmp = 0u1;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB05CE6;
+Reference = C3;
+ValeurCmp = 4u7;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0CE15;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D338;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0588C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /4FAC17B6;
@@ -12,6 +54,34 @@ TimeStamp = /4FAC25C6;
 Reference = IC2;
 ValeurCmp = 24LC256SN;
 IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDC06;
+Reference = IC3;
+ValeurCmp = AT90USB16;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0C5CE;
+Reference = IC4;
+ValeurCmp = LM1117;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEE018;
+Reference = J2;
+ValeurCmp = USB_2;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0B7D7;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
@@ -81,13 +151,34 @@ BeginCmp
 TimeStamp = /4FAC2666;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = SM0603_Resistor;
+IdModule  = R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FAC6A09;
-Reference = S1;
-ValeurCmp = DTS-3;
+TimeStamp = /4FB087D0;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB04F0B;
+Reference = R4;
+ValeurCmp = 22Ω;
+IdModule  = R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB04F52;
+Reference = R5;
+ValeurCmp = 22Ω;
+IdModule  = R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0B7E6;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
 IdModule  = SW_PUSH_SMALL;
 EndCmp
 
@@ -95,6 +186,13 @@ BeginCmp
 TimeStamp = /4FAC1A0F;
 Reference = X1;
 ValeurCmp = 20MHz;
+IdModule  = crystal-CSM-7X-DU;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB03AFE;
+Reference = X2;
+ValeurCmp = 8MHz;
 IdModule  = crystal-CSM-7X-DU;
 EndCmp
 
